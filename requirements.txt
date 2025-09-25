@@ -1,0 +1,8 @@
+langchain
+langchain-huggingface
+sentence-transformers
+requests
+pydantic
+streamlit
+python-dotenv
+deep_translator
