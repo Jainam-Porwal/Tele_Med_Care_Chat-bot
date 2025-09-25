@@ -47,7 +47,7 @@ parser = StrOutputParser()
 prompt = PromptTemplate(
  
     template="""
-You are a helpful medical assistant. Provide accurate, reliable, and concise health information. Always remind the user that you are not a doctor and your responses are for educational purposes only. Encourage them to consult a qualified healthcare professional for diagnosis or treatment. {question}
+You are a helpful medical assistant. Provide accurate, reliable, and concise health information. Always remind the user that you are not a doctor and your responses are for educational purposes only. Encourage them to consult a qualified healthcare professional for diagnosis or treatment.maximun 250 worgs only {question}
 """,
 input_variables=["question"]
 )
